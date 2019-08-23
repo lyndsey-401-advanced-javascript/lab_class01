@@ -20,7 +20,7 @@ describe('#isObjectValid', () => {
         favoriteToys: {type: 'object'},
       },
     };
-    expect(validator.isObjectValid({id: 'kali', age: 2, favoriteToys: {}}, schema));
-  }).toEqual(true);
+    expect(validator.isObjectValid({id: 'kali', age: 2, favoriteToys: {}}, schema)).toEqual(true);
+  })
 });
 

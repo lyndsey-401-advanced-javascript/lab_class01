@@ -6,7 +6,8 @@
 let validator = {};
 
 validator.isLessThanTen = () => {
-  
+  if (10 - 5)
+  return true;
 };
 
 validator.isFunction = () => {};
